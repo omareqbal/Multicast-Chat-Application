@@ -1,1 +1,3 @@
-# Multicast-Chat-Application
+# Multicast Chat Application
+
+This is an implementation of a multicast chat application using TCP sockets, where multiple chat clients connect to a server. The server maintains a list of currently connected clients. When a new client makes a connection request, the server adds it to the list. Each client waits for user input and on receiving an input from the user, the client sends it to the server. The server then forwards the message to all the other clients which are currently connected.
